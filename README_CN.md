@@ -56,6 +56,10 @@ C++ 之道，不在于多，而在于通。
 3. CppTypeAlias / Cpp_SmartPtrs（可任意顺序）
 4. CppCallable / Cpp_namespace（可任意顺序）
 
+## ⭐ Star 走势
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AnnFengDeYe/Cpp-Mental-Models&type=Date)](https://star-history.com/#AnnFengDeYe/Cpp-Mental-Models&Date)
+
 ## 🤝 贡献
 
 如果觉得有帮助，欢迎点个 star ⭐！

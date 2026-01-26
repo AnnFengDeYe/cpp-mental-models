@@ -58,6 +58,10 @@ For optimal learning experience, follow this suggested order:
 3. CppTypeAlias / Cpp_SmartPtrs (can learn in any order)
 4. CppCallable / Cpp_namespace (can learn in any order)
 
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AnnFengDeYe/Cpp-Mental-Models&type=Date)](https://star-history.com/#AnnFengDeYe/Cpp-Mental-Models&Date)
+
 ## 🤝 Contributing
 
 Feel free to star ⭐ this repository if you find it helpful!
