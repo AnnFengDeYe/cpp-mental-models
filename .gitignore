@@ -1,12 +1,51 @@
+# =========================
+# C++ Compiled Object and Executable Files
+# =========================
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
 
-# Added by Git Cleaner (安枫的叶)
-*.swo
-*.swp
-.AppleDouble
-.DS_Store
-.LSOverride
-._*
-.classpath
+# =========================
+# CMake & Build Directories
+# =========================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Ignore common build directory names
+build/
+build-*/
+out/
+bin/
+cmake-build-*/
+
+# =========================
+# IDEs and Editors
+# =========================
+# CLion / IntelliJ IDEA
 .idea/
-.project
+cmake-build-debug/
+cmake-build-release/
+
+# VS Code
 .vscode/
+
+# =========================
+# OS Generated Files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride

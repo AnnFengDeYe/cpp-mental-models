@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(Lambdas)
+project(C_ClockwiseSpiral)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
