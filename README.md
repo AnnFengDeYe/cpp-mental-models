@@ -1,119 +1,117 @@
 # Cpp-Mental-Models
 
-[中文版](README_CN.md) | English
+中文版 | [English](README.md)
 
-This repository contains code examples from my YouTube and Bilibili coding knowledge sharing videos.
+本仓库包含我在 YouTube 和 Bilibili 上分享的代码知识相关的代码示例。
 
-## 🔗 Links
+## 🔗 链接
 
 - **YouTube**: [安枫的叶](https://www.youtube.com/@%E5%AE%89%E6%9E%AB%E7%9A%84%E5%8F%B6)
 - **Bilibili**: [安枫的叶](https://b23.tv/DglKNYp)
 
-## 💡 Design Philosophy
+## 💡 设计理念
 
-The Tao of C++ lies not in accumulation, but in integration.
+C++ 之道，不在于多，而在于通。
 
-Faced with the vast ocean of C++ syntax, fragmented learning often leads one astray. This is especially true in the era of ubiquitous AI-assisted programming, where rote memorization of syntax no longer builds a competitive moat.
+面对浩瀚的 C++ 语法海洋，碎片化的学习往往让人迷失。尤其在 AI 辅助编程日益普及的今天，单纯记忆语法已无竞争壁垒。本系列教程致力于深度整合 C/C++ 核心体系，拒绝将二者割裂，同时也不沉迷于 Modern C++ 的语法表象。
 
-This series is dedicated to a deep synthesis of the C/C++ core, rejecting any artificial separation of the two or immersion in the superficial allure of Modern C++ syntax.
+本仓库希望帮助C/C++学习者构建起坚固的底层知识骨架，让那些生涩的语法细节，不再是死记硬背的条目，而是如枝叶般自然依附于骨架之上的逻辑必然。
 
-This repository aims to assist learners in constructing a robust mental framework. With this foundation, obscure syntactic details cease to be items for rote memorization; instead, they become logical necessities, sprouting naturally like leaves from a solid trunk.
+🌟 **核心特色**
 
-**Core Features**
+- **极简物理模型** 所有代码案例均经过精心打磨，剥离繁杂的语法噪音，旨在将抽象的编程概念锚定于最直观的现实物理类比之中，而非堆砌技术细节。
+- **软件工程的哲学** 透过工程视角审视技术抉择。
+  - **架构设计**：采用工业级全局 CMake 构建系统，实现源码与编译产物的完美隔离，培养规范的工程直觉。
+  - **架构权衡**：探讨静态链接追求的“部署隔离性（可靠性）”与动态链接换取的“维护灵活性（扩展性）”之间的权衡之道。
+  - 未完待续...
 
-- **Minimalist Physical Models**: Every code example is meticulously crafted to strip away syntactic noise. The goal is to anchor abstract programming concepts in the most intuitive real-world physical analogies, rather than merely piling up technical details.
-- **Software Engineering Philosophy**: Examining technical choices through an engineering lens.
-  - **Architecture Design**: Adopting an industry-standard global CMake build system to achieve perfect isolation between source code and build artifacts, cultivating standard engineering intuition.
-  - **Architectural Trade-offs**: Exploring the balance between the "deployment isolation (reliability)" pursued by static linking and the "maintenance flexibility (extensibility)" gained through dynamic linking.
-  - *More to come...*
-- **Intuitive Mental Analogies**:
-  - **Smart Pointers**: Interpreting the exclusive ownership of `unique_ptr` as a "private car", and mapping the shared mechanism of `shared_ptr` to a "public bus".
-  - **Move Semantics**: Visualizing resource transfer as the direct physical "relocation" of image pixels, avoiding the high cost of traditional deep copying.
-  - **Deconstructing OOP**: From the contractual privileges of classes and polymorphic inheritance to the underlying mechanisms of virtual function tables (vtable), ultimately reshaping the boundaries of modern C++ resource management through the evolution from the "Rule of Five" to the "Rule of Zero".
-  - *More to come...*
+- **直观的思维类比**
+  - **智能指针**： 以"私家车"诠释 `unique_ptr` 的独占所有权，以"公交车"映射 `shared_ptr` 的共享机制。
+  - **移动语义**： 将资源转移具象化为图像像素的直接"搬运"，而非传统高昂的深拷贝。
+  - **解构面向对象**：从类的契约特权、多态继承到虚函数表底层机制，并透过“五之法则”到“零之法则”的演进，重塑现代 C++ 资源管理边界。
+  - 未完待续...
 
-Through these minimalist physical scenarios and code examples, this project aims to help more learners construct a solid C/C++ system framework and grasp its core design philosophy.
+希望透过这些最简单的物理场景和代码案例，帮助更多人建立 C/C++ 扎实的系统框架和核心的设计哲学。
 
-## 📚 Contents
+## 📚 目录
 
-### C/C++ Series
+### C/C++ 系列
 
-| Topic | Description | Prerequisites | YouTube | Bilibili |
-|-------|-------------|---------------|---------|----------|
-| **C_ClockwiseSpiral** | Quick method for parsing complex variable declarations. The Clockwise Spiral Rule is an improved version of the Right-Left Rule | None | [Link](https://www.youtube.com/watch?v=Y4643z08jeM) | [Link](https://www.bilibili.com/video/BV1jKhYzjEgE) |
-| **C_MemorySegmentation** | Introduction to C++ memory layout and memory segmentation | None | [Link](https://www.youtube.com/watch?v=rUAGJAhmpDg) | [Link](https://www.bilibili.com/video/BV1Sepyz7ECL) |
-| **MoveSemantic** | Introduction to lvalues, rvalues, and move semantics in C++ | None | [Link](https://www.youtube.com/watch?v=ywFJ-17n_sY) | [Link](https://www.bilibili.com/video/BV17ce7zLEzu) |
-| **DynamicStaticLib** | Complete lifecycle of C/C++ programs from compilation to runtime | C_MemorySegmentation | [Link](https://www.youtube.com/watch?v=Xm-feSXlLVk) | [Link](https://www.bilibili.com/video/BV1Bw1qB1EwU) |
-| **Cpp_OOP** | Class contracts and behaviors, inheritance and polymorphism, virtual function tables, and the Rule of Zero/Five | C_MemorySegmentation, MoveSemantic | [Link]() | [Link]() |
-| **CppTypeAlias** | Introduction to type aliases in C++ | C_ClockwiseSpiral, DynamicStaticLib | [Link](https://www.youtube.com/watch?v=ezqmozV3p0M) | [Link](https://www.bilibili.com/video/BV1VWqvB5ELX) |
-| **Cpp_SmartPtrs** | Introduction to C++ smart pointers | C_MemorySegmentation, MoveSemantic | [Link](https://www.youtube.com/watch?v=l1RRedJbk5k) | [Link](https://www.bilibili.com/video/BV1ajWyzXEpj) |
-| **CppCallable** | Evolution of callables: from C callbacks and functors to functional programming and universal references | MoveSemantic, CppTypeAlias, DynamicStaticLib | [Link](https://www.youtube.com/watch?v=K2QZncoUdLk) | [Link](https://www.bilibili.com/video/BV1F8zNB1EZk) |
-| **Cpp_namespace** | Introduction to C++ namespaces | DynamicStaticLib | [Link](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [Link](https://www.bilibili.com/video/BV1NTUpBoE59) |
+| 主题 | 简介 | 前置知识 | YouTube | Bilibili |
+|------|------|----------|---------|----------|
+| **C_ClockwiseSpiral** | 复杂变量声明的快速判断方法，顺时针螺旋法则是右左法则的改良版 | 无 | [链接](https://www.youtube.com/watch?v=Y4643z08jeM) | [链接](https://www.bilibili.com/video/BV1jKhYzjEgE) |
+| **C_MemorySegmentation** | C++ 的内存布局或内存分段 | 无 | [链接](https://www.youtube.com/watch?v=rUAGJAhmpDg) | [链接](https://www.bilibili.com/video/BV1Sepyz7ECL) |
+| **MoveSemantic** | C++ 的左值、右值和移动语义 | 无 | [链接](https://www.youtube.com/watch?v=ywFJ-17n_sY) | [链接](https://www.bilibili.com/video/BV17ce7zLEzu) |
+| **DynamicStaticLib** | C/C++ 程序从编译到运行的全生命周期 | C_MemorySegmentation | [链接](https://www.youtube.com/watch?v=Xm-feSXlLVk) | [链接](https://www.bilibili.com/video/BV1Bw1qB1EwU) |
+| **Cpp_OOP** | 类的契约与行为、继承与多态、虚函数表机制，以及零之法则/五之法则 | C_MemorySegmentation, MoveSemantic | [链接]() | [链接]() |
+| **CppTypeAlias** | C++ 类型别名 | C_ClockwiseSpiral, DynamicStaticLib | [链接](https://www.youtube.com/watch?v=ezqmozV3p0M) | [链接](https://www.bilibili.com/video/BV1VWqvB5ELX) |
+| **Cpp_SmartPtrs** | C++ 智能指针 | C_MemorySegmentation, MoveSemantic | [链接](https://www.youtube.com/watch?v=l1RRedJbk5k) | [链接](https://www.bilibili.com/video/BV1ajWyzXEpj) |
+| **CppCallable** | 函数的超进化 从面向过程的回调、仿函数至函数式编程与万能引用的可调用对象全解析 | MoveSemantic, CppTypeAlias, DynamicStaticLib | [链接](https://www.youtube.com/watch?v=K2QZncoUdLk) | [链接](https://www.bilibili.com/video/BV1F8zNB1EZk) |
+| **Cpp_namespace** | C++ 命名空间 | DynamicStaticLib | [链接](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [链接](https://www.bilibili.com/video/BV1NTUpBoE59) |
 
 ---
 
-## 📖 Learning Path
+## 📖 学习路径
 
-For optimal learning experience, follow this suggested order:
+为了获得最佳学习体验，建议按以下顺序学习：
 
-1. C_ClockwiseSpiral / C_MemorySegmentation / MoveSemantic (can learn in any order)
-2. DynamicStaticLib / Cpp_OOP (can learn in any order)
-3. CppTypeAlias / Cpp_SmartPtrs (can learn in any order)
-4. CppCallable / Cpp_namespace (can learn in any order)
+1. C_ClockwiseSpiral / C_MemorySegmentation / MoveSemantic（可任意顺序）
+2. DynamicStaticLib / Cpp_OOP （可任意顺序）
+3. CppTypeAlias / Cpp_SmartPtrs（可任意顺序）
+4. CppCallable / Cpp_namespace（可任意顺序）
 
-## 🏗️ Project Structure 
+## 🏗️ 项目结构
 
-This project uses a global CMake architecture, cleanly separating source code from build artifacts:
+本项目采用全局 CMake 架构，以实现了源码与编译产物的隔离：
 
 ```shell
 Cpp-Mental-Models/
-├── CMakeLists.txt       # Global CMake config (Centralized C++ standards & output paths)
-├── modules/             # Source code: Independent C++ topics aligned with video tutorials
+├── CMakeLists.txt       # 全局 CMake 配置（统一管控 C++ 标准与输出路径）
+├── modules/             # 源码目录：按视频主题划分的独立 C++ 进阶代码
 │   ├── Cpp_OOP/
 │   ├── MoveSemantic/
 │   └── ...
-├── bin/                 # 📦 Generated after build: Unified output for all executables (Git ignored)
-└── lib/                 # 📦 Generated after build: Unified output for all libraries (Git ignored)
+├── bin/                 # 📦 编译后自动生成：集中存放所有可执行文件 (Git 忽略)
+└── lib/                 # 📦 编译后自动生成：集中存放所有动态/静态库 (Git 忽略)
 ```
 
-## 🚀 Quick Start
+## 🚀 快速开始
 
-**Prerequisites:** CMake 3.15+ and a C++20 compatible compiler.
+本项目要求 **CMake 3.15+** 及支持 **C++20** 的编译器。
 
-### Option 1: IDE (Highly Recommended)
+### 方法一：IDE 一键运行（强烈推荐）
 
-We recommend using **CLion** or **VSCode** (with the CMake Tools extension).
+推荐使用 **CLion** 或 **VSCode** (配合 CMake Tools 插件)。
 
-1. Open the project **root directory** (`Cpp-Mental-Models`) directly in your IDE.
-2. Allow the IDE to automatically parse the global `CMakeLists.txt`.
-3. Select your desired target from the run/build dropdown menu (e.g., `Cpp_OOP_demo1`) and click Run.
+1. 直接用 IDE 打开项目**根目录** `Cpp-Mental-Models`。
+2. 允许 IDE 自动解析全局 `CMakeLists.txt`。
+3. 在右上角的运行目标 (Target) 下拉菜单中，选择带有模块前缀的特定目标（例如 `Cpp_OOP_demo1`），点击运行即可。
 
-> **💡 Pro Tip**: Always run the code via the generated CMake Targets! Avoid using "single-file run" shortcuts next to the `main()` function, as they will bypass standard CMake linkage and cause `Undefined symbols` errors.
+> **💡 避坑提示**：请务必通过 CMake 目标列表运行代码！切勿点击单个 `.cpp` 文件旁边的快捷运行按钮，以免脱离 CMake 架构导致链接失败（如 `Undefined symbols` 报错）。
 
-
-### Option 2: Command Line 
+### 方法二：命令行编译
 
 ```shell
-# 1. Generate build system (This will automatically create bin/ and lib/ dirs)
+# 1. 生成构建系统 (此时会自动创建 bin/ 和 lib/ 目录)
 cmake -B build
 
-# 2. Build all modules
+# 2. 编译所有模块
 cmake --build build
 
-# 3. Run the specific executable
+# 3. 运行指定的可执行文件
 ./bin/Cpp_OOP_demo1_inheritance_polymorphism
 ```
 
 
 
-## ⭐ Star History
+## ⭐ Star 走势
 
 [![Star History Chart](https://api.star-history.com/svg?repos=AnnFengDeYe/Cpp-Mental-Models&type=Date)](https://star-history.com/#AnnFengDeYe/Cpp-Mental-Models&Date)
 
-## 🤝 Contributing
+## 🤝 贡献
 
-Feel free to star ⭐ this repository if you find it helpful!
+如果觉得有帮助，欢迎点个 star ⭐！
 
-## 📧 Contact
+## 📧 联系方式
 
-If you have any questions or suggestions, please leave a comment on my YouTube or Bilibili videos.
+如有任何问题或建议，欢迎在我的 YouTube 或 Bilibili 视频下留言。
