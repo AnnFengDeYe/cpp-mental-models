@@ -23,32 +23,33 @@ This repository aims to assist learners in constructing a robust mental framewor
 
 - **Minimalist Physical Models**: Every code example is meticulously crafted to strip away syntactic noise. The goal is to anchor abstract programming concepts in the most intuitive real-world physical analogies, rather than merely piling up technical details.
 - **Software Engineering Philosophy**: Examining technical choices through an engineering lens.
+  
   - **Architecture Design**: Adopting an industry-standard global CMake build system to achieve perfect isolation between source code and build artifacts, cultivating standard engineering intuition.
   - **Architectural Trade-offs**: Exploring the balance between the "deployment isolation (reliability)" pursued by static linking and the "maintenance flexibility (extensibility)" gained through dynamic linking.
-  - *More to come...*
+  - *For deeper architectural insights and engineering trade-offs, check out the companion videos...*
 - **Intuitive Mental Analogies**:
   - **Smart Pointers**: Interpreting the exclusive ownership of `unique_ptr` as a "private car", and mapping the shared mechanism of `shared_ptr` to a "public bus".
   - **Move Semantics**: Visualizing resource transfer as the direct physical "relocation" of image pixels, avoiding the high cost of traditional deep copying.
   - **Deconstructing OOP**: From the contractual privileges of classes and polymorphic inheritance to the underlying mechanisms of virtual function tables (vtable), ultimately reshaping the boundaries of modern C++ resource management through the evolution from the "Rule of Five" to the "Rule of Zero".
-  - *More to come...*
+  - *For more intuitive analogies and source-level deep dives, check out the companion videos....*
 
-Through these minimalist physical scenarios and code examples, this project aims to help more learners construct a solid C/C++ system framework and grasp its core design philosophy.
+  Through these minimalist physical scenarios and code examples, this project aims to help more learners construct a solid C/C++ system framework and grasp its core design philosophy.
 
 ## 📚 Contents
 
 ### C/C++ Series
 
 | Topic | Description | Prerequisites | YouTube | Bilibili |
-|-------|-------------|---------------|---------|----------|
-| **C_ClockwiseSpiral** | Quick method for parsing complex variable declarations. The Clockwise Spiral Rule is an improved version of the Right-Left Rule | None | [Link](https://www.youtube.com/watch?v=Y4643z08jeM) | [Link](https://www.bilibili.com/video/BV1jKhYzjEgE) |
-| **C_MemorySegmentation** | Introduction to C++ memory layout and memory segmentation | None | [Link](https://www.youtube.com/watch?v=rUAGJAhmpDg) | [Link](https://www.bilibili.com/video/BV1Sepyz7ECL) |
-| **MoveSemantic** | Introduction to lvalues, rvalues, and move semantics in C++ | None | [Link](https://www.youtube.com/watch?v=ywFJ-17n_sY) | [Link](https://www.bilibili.com/video/BV17ce7zLEzu) |
-| **DynamicStaticLib** | Complete lifecycle of C/C++ programs from compilation to runtime | C_MemorySegmentation | [Link](https://www.youtube.com/watch?v=Xm-feSXlLVk) | [Link](https://www.bilibili.com/video/BV1Bw1qB1EwU) |
-| **Cpp_OOP** | Class contracts and behaviors, inheritance and polymorphism, virtual function tables, and the Rule of Zero/Five | C_MemorySegmentation, MoveSemantic | [Link]() | [Link]() |
-| **CppTypeAlias** | Introduction to type aliases in C++ | C_ClockwiseSpiral, DynamicStaticLib | [Link](https://www.youtube.com/watch?v=ezqmozV3p0M) | [Link](https://www.bilibili.com/video/BV1VWqvB5ELX) |
-| **Cpp_SmartPtrs** | Introduction to C++ smart pointers | C_MemorySegmentation, MoveSemantic | [Link](https://www.youtube.com/watch?v=l1RRedJbk5k) | [Link](https://www.bilibili.com/video/BV1ajWyzXEpj) |
-| **CppCallable** | Evolution of callables: from C callbacks and functors to functional programming and universal references | MoveSemantic, CppTypeAlias, DynamicStaticLib | [Link](https://www.youtube.com/watch?v=K2QZncoUdLk) | [Link](https://www.bilibili.com/video/BV1F8zNB1EZk) |
-| **Cpp_namespace** | Introduction to C++ namespaces | DynamicStaticLib | [Link](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [Link](https://www.bilibili.com/video/BV1NTUpBoE59) |
+|:-----:|:-----------:|:-------------:|:-------:|:--------:|
+| **clockwise-spiral** | Quick method for parsing complex variable declarations. The Clockwise Spiral Rule is an improved version of the Right-Left Rule | None | [Link](https://www.youtube.com/watch?v=Y4643z08jeM) | [Link](https://www.bilibili.com/video/BV1jKhYzjEgE) |
+| **memory-segmentation** | Introduction to C++ memory layout and memory segmentation | None | [Link](https://www.youtube.com/watch?v=rUAGJAhmpDg) | [Link](https://www.bilibili.com/video/BV1Sepyz7ECL) |
+| **move-semantics** | Introduction to lvalues, rvalues, and move semantics in C++ | None | [Link](https://www.youtube.com/watch?v=ywFJ-17n_sY) | [Link](https://www.bilibili.com/video/BV17ce7zLEzu) |
+| **dynamic-static-libs** | Complete lifecycle of C/C++ programs from compilation to runtime | memory-segmentation | [Link](https://www.youtube.com/watch?v=Xm-feSXlLVk) | [Link](https://www.bilibili.com/video/BV1Bw1qB1EwU) |
+| **oop** | Class contracts and behaviors, inheritance and polymorphism, virtual function tables, and the Rule of Zero/Five | memory-segmentation, move-semantics | [Link]() | [Link]() |
+| **type-aliases** | Introduction to type aliases in C++ | clockwise-spiral, dynamic-static-libs | [Link](https://www.youtube.com/watch?v=ezqmozV3p0M) | [Link](https://www.bilibili.com/video/BV1VWqvB5ELX) |
+| **smart-pointers** | Introduction to C++ smart pointers | memory-segmentation, move-semantics | [Link](https://www.youtube.com/watch?v=l1RRedJbk5k) | [Link](https://www.bilibili.com/video/BV1ajWyzXEpj) |
+| **callable-objects** | Evolution of callables: from C callbacks and functors to functional programming and universal references | move-semantics, type-aliases, dynamic-static-libs | [Link](https://www.youtube.com/watch?v=K2QZncoUdLk) | [Link](https://www.bilibili.com/video/BV1F8zNB1EZk) |
+| **namespaces** | Introduction to C++ namespaces | dynamic-static-libs | [Link](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [Link](https://www.bilibili.com/video/BV1NTUpBoE59) |
 
 ---
 
@@ -56,10 +57,10 @@ Through these minimalist physical scenarios and code examples, this project aims
 
 For optimal learning experience, follow this suggested order:
 
-1. C_ClockwiseSpiral / C_MemorySegmentation / MoveSemantic (can learn in any order)
-2. DynamicStaticLib / Cpp_OOP (can learn in any order)
-3. CppTypeAlias / Cpp_SmartPtrs (can learn in any order)
-4. CppCallable / Cpp_namespace (can learn in any order)
+1. clockwise-spiral / memory-segmentation / move-semantics (can learn in any order)
+2. dynamic-static-libs / oop (can learn in any order)
+3. type-aliases / smart-pointers (can learn in any order)
+4. callable-objects / namespaces (can learn in any order)
 
 ## 🏗️ Project Structure 
 

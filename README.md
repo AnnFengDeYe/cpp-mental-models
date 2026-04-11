@@ -23,31 +23,31 @@ C++ 之道，不在于多，而在于通。
 - **软件工程的哲学** 透过工程视角审视技术抉择。
   - **架构设计**：采用工业级全局 CMake 构建系统，实现源码与编译产物的完美隔离，培养规范的工程直觉。
   - **架构权衡**：探讨静态链接追求的“部署隔离性（可靠性）”与动态链接换取的“维护灵活性（扩展性）”之间的权衡之道。
-  - 未完待续...
+  - 更多架构设计与工程视角的深度权衡，详见配套视频...
 
 - **直观的思维类比**
   - **智能指针**： 以"私家车"诠释 `unique_ptr` 的独占所有权，以"公交车"映射 `shared_ptr` 的共享机制。
   - **移动语义**： 将资源转移具象化为图像像素的直接"搬运"，而非传统高昂的深拷贝。
   - **解构面向对象**：从类的契约特权、多态继承到虚函数表底层机制，并透过“五之法则”到“零之法则”的演进，重塑现代 C++ 资源管理边界。
-  - 未完待续...
+  - 更多类比与底层源码级剖析，详见配套视频...
 
-希望透过这些最简单的物理场景和代码案例，帮助更多人建立 C/C++ 扎实的系统框架和核心的设计哲学。
+  希望透过这些最简单的物理场景和代码案例，帮助更多人建立 C/C++ 扎实的系统框架和核心的设计哲学。
 
 ## 📚 目录
 
 ### C/C++ 系列
 
 | 主题 | 简介 | 前置知识 | YouTube | Bilibili |
-|------|------|----------|---------|----------|
-| **C_ClockwiseSpiral** | 复杂变量声明的快速判断方法，顺时针螺旋法则是右左法则的改良版 | 无 | [链接](https://www.youtube.com/watch?v=Y4643z08jeM) | [链接](https://www.bilibili.com/video/BV1jKhYzjEgE) |
-| **C_MemorySegmentation** | C++ 的内存布局或内存分段 | 无 | [链接](https://www.youtube.com/watch?v=rUAGJAhmpDg) | [链接](https://www.bilibili.com/video/BV1Sepyz7ECL) |
-| **MoveSemantic** | C++ 的左值、右值和移动语义 | 无 | [链接](https://www.youtube.com/watch?v=ywFJ-17n_sY) | [链接](https://www.bilibili.com/video/BV17ce7zLEzu) |
-| **DynamicStaticLib** | C/C++ 程序从编译到运行的全生命周期 | C_MemorySegmentation | [链接](https://www.youtube.com/watch?v=Xm-feSXlLVk) | [链接](https://www.bilibili.com/video/BV1Bw1qB1EwU) |
-| **Cpp_OOP** | 类的契约与行为、继承与多态、虚函数表机制，以及零之法则/五之法则 | C_MemorySegmentation, MoveSemantic | [链接]() | [链接]() |
-| **CppTypeAlias** | C++ 类型别名 | C_ClockwiseSpiral, DynamicStaticLib | [链接](https://www.youtube.com/watch?v=ezqmozV3p0M) | [链接](https://www.bilibili.com/video/BV1VWqvB5ELX) |
-| **Cpp_SmartPtrs** | C++ 智能指针 | C_MemorySegmentation, MoveSemantic | [链接](https://www.youtube.com/watch?v=l1RRedJbk5k) | [链接](https://www.bilibili.com/video/BV1ajWyzXEpj) |
-| **CppCallable** | 函数的超进化 从面向过程的回调、仿函数至函数式编程与万能引用的可调用对象全解析 | MoveSemantic, CppTypeAlias, DynamicStaticLib | [链接](https://www.youtube.com/watch?v=K2QZncoUdLk) | [链接](https://www.bilibili.com/video/BV1F8zNB1EZk) |
-| **Cpp_namespace** | C++ 命名空间 | DynamicStaticLib | [链接](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [链接](https://www.bilibili.com/video/BV1NTUpBoE59) |
+|:----:|:----:|:--------:|---------|----------|
+| **clockwise-spiral** | 复杂变量声明的快速判断方法，顺时针螺旋法则是右左法则的改良版 | 无 | [链接](https://www.youtube.com/watch?v=Y4643z08jeM) | [链接](https://www.bilibili.com/video/BV1jKhYzjEgE) |
+| **memory-segmentation** | C++ 的内存布局或内存分段 | 无 | [链接](https://www.youtube.com/watch?v=rUAGJAhmpDg) | [链接](https://www.bilibili.com/video/BV1Sepyz7ECL) |
+| **move-semantics** | C++ 的左值、右值和移动语义 | 无 | [链接](https://www.youtube.com/watch?v=ywFJ-17n_sY) | [链接](https://www.bilibili.com/video/BV17ce7zLEzu) |
+| **dynamic-static-libs** | C/C++ 程序从编译到运行的全生命周期 | memory-segmentation | [链接](https://www.youtube.com/watch?v=Xm-feSXlLVk) | [链接](https://www.bilibili.com/video/BV1Bw1qB1EwU) |
+| **oop** | 类的契约与行为、继承与多态、虚函数表机制，以及零之法则/五之法则 | memory-segmentation, move-semantics | [链接]() | [链接]() |
+| **type-aliases** | C++ 类型别名 | clockwise-spiral, dynamic-static-libs | [链接](https://www.youtube.com/watch?v=ezqmozV3p0M) | [链接](https://www.bilibili.com/video/BV1VWqvB5ELX) |
+| **smart-pointers** | C++ 智能指针 | memory-segmentation, move-semantics | [链接](https://www.youtube.com/watch?v=l1RRedJbk5k) | [链接](https://www.bilibili.com/video/BV1ajWyzXEpj) |
+| **callable-objects** | 函数的超进化 从面向过程的回调、仿函数至函数式编程与万能引用的可调用对象全解析 | move-semantics, type-aliases, dynamic-static-libs | [链接](https://www.youtube.com/watch?v=K2QZncoUdLk) | [链接](https://www.bilibili.com/video/BV1F8zNB1EZk) |
+| **namespaces** | C++ 命名空间 | dynamic-static-libs | [链接](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [链接](https://www.bilibili.com/video/BV1NTUpBoE59) |
 
 ---
 
@@ -55,10 +55,10 @@ C++ 之道，不在于多，而在于通。
 
 为了获得最佳学习体验，建议按以下顺序学习：
 
-1. C_ClockwiseSpiral / C_MemorySegmentation / MoveSemantic（可任意顺序）
-2. DynamicStaticLib / Cpp_OOP （可任意顺序）
-3. CppTypeAlias / Cpp_SmartPtrs（可任意顺序）
-4. CppCallable / Cpp_namespace（可任意顺序）
+1. clockwise-spiral / memory-segmentation / move-semantics（可任意顺序）
+2. dynamic-static-libs / oop （可任意顺序）
+3. type-aliases / smart-pointers（可任意顺序）
+4. callable-objects / namespaces（可任意顺序）
 
 ## 🏗️ 项目结构
 
@@ -106,7 +106,7 @@ cmake --build build
 
 ## ⭐ Star 走势
 
-[![Star History Chart](https://api.star-history.com/svg?repos=AnnFengDeYe/Cpp-Mental-Models&type=Date)](https://star-history.com/#AnnFengDeYe/Cpp-Mental-Models&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=AnnFengDeYe/cpp-mental-models&type=Date)](https://star-history.com/#AnnFengDeYe/Cpp-Mental-Models&Date)
 
 ## 🤝 贡献
 
