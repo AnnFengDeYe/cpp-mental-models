@@ -9,7 +9,6 @@ int main(int argc, char* argv[]) {
 
     int* heap_ptr = new int(30);
 
-    // ===== 打印所有核心区域的内存地址 =====
     std::cout << "--- Memory Layout Analysis ---" << std::endl;
     uintptr_t text_addr   = (uintptr_t)function_for_text_segment;
     uintptr_t rodata_addr = (uintptr_t)&g_rodata_var;
@@ -26,18 +25,13 @@ int main(int argc, char* argv[]) {
     std::cout << "6. Stack address:    0x" << std::hex << stack_addr << std::endl;
     std::cout << std::dec << std::endl;
 
-    // ===== 验证与 ASLR =====
     std::cout << "--- Layout & ASLR Verification ---" << std::endl;
 
-    // Part 1: 验证静态内存区内部的固定布局
-    // 这个顺序是由链接器决定的，不受ASLR影响，结果始终为 true。
     std::cout << std::boolalpha;
     std::cout << "Static Area Rule (.text < .rodata < .data < .bss) Check: "
               << ((text_addr < rodata_addr) && (rodata_addr < data_addr) && (data_addr < bss_addr))
               << std::endl << std::endl;
 
-    // Part 2: 观察各大区域间的相对位置
-    // 这个顺序受 ASLR 影响，在不同系统或多次运行中可能不同。
     std::cout << "Major Areas Relative Position (can be randomized by ASLR):" << std::endl;
     std::cout << "  Stack < Heap?     " << (stack_addr < heap_addr) << std::endl;
     std::cout << "  Static memory < Stack ?     " << (bss_addr < stack_addr) << std::endl;

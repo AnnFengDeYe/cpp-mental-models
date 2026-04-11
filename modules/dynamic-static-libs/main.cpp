@@ -4,7 +4,7 @@
 #define DEBUG
 
 int main() {
-    int result = SQUARE(NUM); // 宏将在这里被展开
+    int result = SQUARE(NUM);
 
 #ifdef DEBUG
     std::cout << "Debug" << std::endl;

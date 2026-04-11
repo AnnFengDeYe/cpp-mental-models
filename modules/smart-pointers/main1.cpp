@@ -8,7 +8,6 @@ public:
     void greet() { std::cout << "  -> MyObject 说你好!\n"; }
 };
 
-// 场景1：正确用法 - unique_ptr对象在栈上，通过 new 初始化
 void stack_ptr_via_new() {
     std::cout << "--- 场景1：栈上 unique_ptr, 通过 new 初始化 ---\n";
     std::unique_ptr<MyObject> p1{new MyObject{}};
@@ -16,7 +15,6 @@ void stack_ptr_via_new() {
     p1->greet();
 }
 
-// 场景2：推荐用法 - unique_ptr对象在栈上，通过 make_unique 初始化
 void stack_ptr_via_make_unique() {
     std::cout << "\n--- 场景2：栈上 unique_ptr, 通过 make_unique 初始化 ---\n";
     auto p2{std::make_unique<MyObject>()};
@@ -24,7 +22,6 @@ void stack_ptr_via_make_unique() {
     p2->greet();
 }
 
-// 场景3：错误用法 - unique_ptr对象本身在堆上，破坏了RAII
 void heap_ptr_breaks_raii() {
     std::cout << "\n--- 场景3：堆上 unique_ptr, 破坏 RAII ---\n";
     auto p3{new std::unique_ptr<MyObject>{new MyObject{}}};
