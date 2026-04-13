@@ -106,8 +106,11 @@ cmake --build build
 
 ## ⭐ Star 走势
 
-[![Star History Chart](https://api.star-history.com/svg?repos=AnnFengDeYe/cpp-mental-models&type=Date)](https://star-history.com/#AnnFengDeYe/Cpp-Mental-Models&Date)
-
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AnnFengDeYe/cpp-mental-models&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AnnFengDeYe/cpp-mental-models&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AnnFengDeYe/cpp-mental-models&type=date&legend=top-left" />
+ </picture>
 ## 🤝 贡献
 
 如果觉得有帮助，欢迎点个 star ⭐！
