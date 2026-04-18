@@ -113,7 +113,8 @@ cmake --build build
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AnnFengDeYe/cpp-mental-models&type=date&theme=dark&legend=top-left" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=AnnFengDeYe/cpp-mental-models&type=date&legend=top-left" />
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=AnnFengDeYe/cpp-mental-models&type=date&legend=top-left" />
- </picture>](https://star-history.com/#AnnFengDeYe/Cpp-Mental-Models&Date)
+ </picture>
+
 
 ## 🤝 Contributing
 
