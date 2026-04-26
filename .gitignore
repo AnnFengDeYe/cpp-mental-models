@@ -50,3 +50,6 @@ cmake-build-release/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+
+!modules/build-type/
