@@ -48,7 +48,7 @@ C++ 之道，不在于多，而在于通。
 | **smart-pointers** | C++ 智能指针 | memory-segmentation, move-semantics | [链接](https://www.youtube.com/watch?v=l1RRedJbk5k) | [链接](https://www.bilibili.com/video/BV1ajWyzXEpj) |
 | **callable-objects** | 函数的超进化 从面向过程的回调、仿函数至函数式编程与万能引用的可调用对象全解析 | move-semantics, type-aliases, dynamic-static-libs | [链接](https://www.youtube.com/watch?v=K2QZncoUdLk) | [链接](https://www.bilibili.com/video/BV1F8zNB1EZk) |
 | **namespaces** | C++ 命名空间 | dynamic-static-libs | [链接](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [链接](https://www.bilibili.com/video/BV1NTUpBoE59) |
-
+| **build-type** | C/C++ 构建类型的底层原理与工程取舍，以及裸机交叉编译的全链路解析 | dynamic-static-libs | [链接](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [链接](https://www.bilibili.com/video/BV1i7ofBNExr) |
 ---
 
 ## 📖 学习路径
@@ -57,7 +57,7 @@ C++ 之道，不在于多，而在于通。
 
 1. clockwise-spiral / memory-segmentation / move-semantics（可任意顺序）
 2. dynamic-static-libs / oop （可任意顺序）
-3. type-aliases / smart-pointers（可任意顺序）
+3. type-aliases / smart-pointers / build-type（可任意顺序）
 4. callable-objects / namespaces（可任意顺序）
 
 ## 🏗️ 项目结构
