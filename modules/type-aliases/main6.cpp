@@ -1,4 +1,5 @@
 # include <iostream>
+# include <vector>
 const int n = 5;
 
 using FuncPtr = int* (*)(void); // 定义元素类型

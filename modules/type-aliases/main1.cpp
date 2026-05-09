@@ -1,4 +1,5 @@
 #include <iostream>
+#include <functional>
 
 using IntPredicate = bool(int);
 

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdint>
 
 void function_for_text_segment() {}
 const int g_rodata_var = 10;
