@@ -1,5 +1,10 @@
 # Cpp-Mental-Models
 
+[![CMake CI](https://github.com/AnnFengDeYe/cpp-mental-models/actions/workflows/cmake.yml/badge.svg)](https://github.com/AnnFengDeYe/cpp-mental-models/actions/workflows/cmake.yml)
+![C++20](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=c%2B%2B&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS-lightgrey)
+
 [中文版](README.md) | English
 
 This repository contains code examples from my YouTube and Bilibili coding knowledge sharing videos.
