@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS-lightgrey)
 
-中文版 | [English](README_EN.md)
+中文版 | [English](README.en.md)
 
 本仓库是一个模块化的 C/C++ 学习与实践指南。本项目旨在通过可运行的精简示例、直观的心智模型（物理类比）以及统一的 CMake 构建系统，深度解析 C/C++ 的核心语言机制与系统级底层原理。
 
