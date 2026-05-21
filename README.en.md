@@ -50,7 +50,7 @@ This repository aims to assist learners in constructing a robust mental framewor
 | **smart-pointers** | Introduction to C++ smart pointers | memory-segmentation, move-semantics | [Link](https://www.youtube.com/watch?v=l1RRedJbk5k) | [Link](https://www.bilibili.com/video/BV1ajWyzXEpj) |
 | **callable-objects** | Evolution of callables: from C callbacks and functors to functional programming and universal references | move-semantics, type-aliases, dynamic-static-libs | [Link](https://www.youtube.com/watch?v=K2QZncoUdLk) | [Link](https://www.bilibili.com/video/BV1F8zNB1EZk) |
 | **namespaces** | Introduction to C++ namespaces | dynamic-static-libs | [Link](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [Link](https://www.bilibili.com/video/BV1NTUpBoE59) |
-| **build-type** | Build type internals, engineering trade-offs, and the full bare-metal cross-compilation workflow | dynamic-static-libs | [Link](https://www.youtube.com/watch?v=n8uNKJSTyQc) | [Link](https://www.bilibili.com/video/BV1i7ofBNExr) |
+| **build-type** | Build type internals, engineering trade-offs, and the full bare-metal cross-compilation workflow | dynamic-static-libs | [Link](https://www.youtube.com/watch?v=pkbxrxwJslo&t=446s) | [Link](https://www.bilibili.com/video/BV1i7ofBNExr) |
 
 ---
 
