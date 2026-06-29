@@ -40,6 +40,7 @@ C++ 之道，不在于多，而在于通。
 | 主题 | 简介 | 前置知识 | YouTube | Bilibili |
 |:----:|:----:|:--------:|---------|----------|
 | **evolution-of-cpp** | 快速了解 C++ 的前世今生、复杂性诅咒、内存危机，以及 AI 时代的绝地反击 | 无 | [链接](https://www.youtube.com/watch?v=dVRFSzbLR7M) | [链接](https://www.bilibili.com/video/BV1Av7Z67E11) |
+| **arithmetic-traps** | C/C++ 算术运算潜规则：整型提升与寻常算术转换 | 无 | [链接]() | [链接]() |
 | **clockwise-spiral** | 复杂变量声明的快速判断方法，顺时针螺旋法则是右左法则的改良版 | 无 | [链接](https://www.youtube.com/watch?v=Y4643z08jeM) | [链接](https://www.bilibili.com/video/BV1jKhYzjEgE) |
 | **memory-segmentation** | C++ 的内存布局或内存分段 | 无 | [链接](https://www.youtube.com/watch?v=rUAGJAhmpDg) | [链接](https://www.bilibili.com/video/BV1Sepyz7ECL) |
 | **move-semantics** | C++ 的左值、右值和移动语义 | 无 | [链接](https://www.youtube.com/watch?v=ywFJ-17n_sY) | [链接](https://www.bilibili.com/video/BV17ce7zLEzu) |
@@ -57,7 +58,7 @@ C++ 之道，不在于多，而在于通。
 为了获得最佳学习体验，建议按以下顺序学习：
 
 1. evolution-of-cpp
-2. clockwise-spiral / memory-segmentation / move-semantics（可任意顺序）
+2. arithmetic-traps / clockwise-spiral / memory-segmentation / move-semantics（可任意顺序）
 3. dynamic-static-libs / oop （可任意顺序）
 4. type-aliases / smart-pointers / build-type（可任意顺序）
 5. callable-objects / namespaces（可任意顺序）

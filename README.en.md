@@ -42,6 +42,7 @@ This repository aims to assist learners in constructing a robust mental framewor
 | Topic | Description | Prerequisites | YouTube | Bilibili |
 |:-----:|:-----------:|:-------------:|:-------:|:--------:|
 | **evolution-of-cpp** | A quick tour of C++'s past and present, the curse of complexity, the memory crisis, and its comeback in the AI era | None | [Link](https://www.youtube.com/watch?v=dVRFSzbLR7M) | [Link](https://www.bilibili.com/video/BV1Av7Z67E11) |
+| **arithmetic-traps** | Hidden rules of C/C++ arithmetic: integral promotion and usual arithmetic conversions | None | [Link]() | [Link]() |
 | **clockwise-spiral** | Quick method for parsing complex variable declarations. The Clockwise Spiral Rule is an improved version of the Right-Left Rule | None | [Link](https://www.youtube.com/watch?v=Y4643z08jeM) | [Link](https://www.bilibili.com/video/BV1jKhYzjEgE) |
 | **memory-segmentation** | Introduction to C++ memory layout and memory segmentation | None | [Link](https://www.youtube.com/watch?v=rUAGJAhmpDg) | [Link](https://www.bilibili.com/video/BV1Sepyz7ECL) |
 | **move-semantics** | Introduction to lvalues, rvalues, and move semantics in C++ | None | [Link](https://www.youtube.com/watch?v=ywFJ-17n_sY) | [Link](https://www.bilibili.com/video/BV17ce7zLEzu) |
@@ -60,7 +61,7 @@ This repository aims to assist learners in constructing a robust mental framewor
 For optimal learning experience, follow this suggested order:
 
 1. evolution-of-cpp
-2. clockwise-spiral / memory-segmentation / move-semantics (can learn in any order)
+2. arithmetic-traps / clockwise-spiral / memory-segmentation / move-semantics (can learn in any order)
 3. dynamic-static-libs / oop (can learn in any order)
 4. type-aliases / smart-pointers / build-type (can learn in any order)
 5. callable-objects / namespaces (can learn in any order)
